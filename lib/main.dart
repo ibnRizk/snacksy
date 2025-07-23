@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:snacksy/home.dart';
 
 void main() {
   runApp(const Snacksy());
@@ -9,6 +10,9 @@ class Snacksy extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false);
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Home(),
+    );
   }
 }
