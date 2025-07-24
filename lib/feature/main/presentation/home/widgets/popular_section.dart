@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../core/constant.dart';
+import '../../../../../core/constant.dart';
 
 class PopularSection extends StatelessWidget {
   const PopularSection({super.key});
