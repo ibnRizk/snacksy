@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:snacksy/home.dart';
+import 'package:snacksy/feature/home/home.dart';
 
 void main() {
   runApp(const Snacksy());

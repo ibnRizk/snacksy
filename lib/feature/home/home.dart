@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:snacksy/constant.dart';
-import 'package:snacksy/widgets/app_header.dart';
-import 'package:snacksy/widgets/search_area.dart';
+import 'package:snacksy/core/constant.dart';
+import 'package:snacksy/feature/home/widgets/app_header.dart';
+import 'package:snacksy/feature/home/widgets/search_area.dart';
 
 import 'widgets/categories_part.dart';
 import 'widgets/popular_section.dart';
