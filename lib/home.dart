@@ -3,6 +3,8 @@ import 'package:snacksy/constant.dart';
 import 'package:snacksy/widgets/app_header.dart';
 import 'package:snacksy/widgets/search_area.dart';
 
+import 'widgets/categories_part.dart';
+
 class Home extends StatelessWidget {
   const Home({super.key});
 
@@ -15,7 +17,11 @@ class Home extends StatelessWidget {
         color: const Color.fromARGB(255, 228, 228, 228),
         child: SafeArea(
           child: Column(
-            children: [AppHeader(), SearchArea()],
+            children: [
+              AppHeader(),
+              SearchArea(),
+              CategoriesPart(),
+            ],
           ),
         ),
       ),
