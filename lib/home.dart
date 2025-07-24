@@ -4,6 +4,7 @@ import 'package:snacksy/widgets/app_header.dart';
 import 'package:snacksy/widgets/search_area.dart';
 
 import 'widgets/categories_part.dart';
+import 'widgets/popular_section.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -21,6 +22,7 @@ class Home extends StatelessWidget {
               AppHeader(),
               SearchArea(),
               CategoriesPart(),
+              PopularSection(),
             ],
           ),
         ),
