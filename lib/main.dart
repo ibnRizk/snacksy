@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:snacksy/feature/main/presentation/home/home.dart';
+import 'package:snacksy/feature/main/main_page.dart';
 
 void main() {
   runApp(const Snacksy());
@@ -12,7 +12,7 @@ class Snacksy extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      home: MainPage(),
     );
   }
 }
